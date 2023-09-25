@@ -13,9 +13,15 @@
     text-align: center;
     display: inline-block;
     margin: 4px 2px;
+    box-shadow: #2a5a16;
+
 }
 
-.button1 {
+.button:hover::after {
+    background-color: #2a5a16;
+}
+
+.hover .button1 {
     border-radius: 2px;
 }
 
@@ -27,7 +33,7 @@
     border-radius: 8px;
 }
 
-.button4 {
+.br-12 {
     border-radius: 12px;
 }
 
